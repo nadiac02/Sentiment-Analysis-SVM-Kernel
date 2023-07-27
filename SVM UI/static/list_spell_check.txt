@@ -1,0 +1,270 @@
+acc: terima
+alhamdulilahnya: alhamdulillah nya
+apah: apa
+apk: aplikasi
+app: aplikasi
+apps: aplikasi
+apknya: aplikasinya
+apk nya: aplikasinya
+apes: sial
+amat: sangat
+balikin: balikkan
+barangya: barangnya
+bgus: bagus
+baguss: bagus
+bagusss: bagus
+bener: benar
+beres: selesai
+biar: supaya
+bkl: bakal
+blm: belum
+blom: belum
+blum: belum
+belom: belum
+bgt: banget
+bngt: banget
+bnget: banget
+banya: banyak
+bnyk: banyak
+bnyak: banyak
+brengsek: berengsek
+bs: bisa
+bsa: bisa
+casback: cashback
+cekout: check out
+cek out: check out
+checkout: check out
+cm: cuma
+cmn: hanya
+cuman: hanya
+cuan: uang
+cpt: cepat
+cpet: cepat
+d aplikasi: di aplikasi
+d acc: diterima
+di gunakan: digunakan
+dibalikin: dibalikkan
+di benahi: dibenahi
+di bebani: dibebani
+di banding: dibanding
+di bikin: dibuat
+dibikin: dibuat
+dilakuin: dilakukan
+digambar: di gambar
+di jangkau: dijangkau
+di perbaiki: diperbaiki
+di pke: dipakai
+di kasi: diberi
+di kasih: diberi
+di kurangin: dikurangi
+dikembaliin: dikembalikan
+dikurangin: dikurangi
+di kurangin: dikurangi
+di minati: diminati
+di pesan: dipesan
+di rugikan: dirugikan
+di sesuaikan: disesuaikan
+di serahkan: diserahkan
+di tes: dites
+di update: diupdate
+dpt: dapat
+dapet: dapat
+duit: uang
+e comer: e commerce
+expedisi: ekspedisi
+ekpedisi: ekspedisi
+expres: express
+enggak: tidak
+engga: tidak
+emang: memang
+emg: memang
+emng: memang
+gk: tidak
+ga: tidak
+gak: tidak
+ggal: gagal
+gamenya: game nya
+gapernah: tidak pernah
+gaada: tidak ada
+ga percaya: tidak percaya
+gahar: kuat
+hrs: harus
+hrus: harus
+haduh: aduh
+hang: lambat
+hps: hapus
+hpsin: hapuskan
+hrpn: harapan
+hrg: harga
+jau: jauh
+jumbo: besar
+jt: juta
+jm: jam
+jgn: jangan
+kagak: tidak
+kdang: kadang
+kgk: tidak
+kaga: tidak
+karna: karena
+krn: karena
+krna: karena
+kelar: selesai
+keaaman: keamanan
+kcewa: kecewa
+keteranganya: keterangannya
+kedepannya: ke depannya
+kebih: lebih
+kesel: kesal
+ke refresh: terrefresh
+ketambah: tertambah
+ksl: kesal
+kasi: kasih
+ksi: kasih
+ksih: kasih
+ksh: kasih
+kmrn: kemarin
+kmarn: kemarin
+kmarin: kemarin
+komplit: lengkap
+kudu: harus
+kwalitas: kualitas
+laen: lain
+lbh: lebih
+lbih: lebih
+lagii: lagi
+lg: lagi
+lgi: lagi
+lag: lambat
+lma: lama
+leg: lambat
+lelet: lambat
+leled: lambat
+lemot: lambat
+lemott: lambat
+loadingnya: loading nya
+loadnya: loading nya
+macem: macam
+makasih: terima kasih
+makasi: terima kasih
+mksih: terima kasih
+masi: masih
+msh: masih
+msih: masih
+mhl: mahal
+mksh: terima kasih
+make: pakai
+mke: pakai
+makin: semakin
+malah: justru
+males: malas
+mls: malas
+memesan: pesan
+memo: memori
+mikir: pikir
+milih: pilih
+mimin: admin
+mulu: terus
+muter: putar
+msukan: masukan
+mw: mau
+nampil: tampil
+nambah: tambah
+ngaur: aneh
+ngirim: kirim
+ngawur: aneh
+ngasih: memberi
+ngeleg: lambat
+ngk: tidak
+ngga: tidak
+nggk: tidak
+nggak: tidak
+ngotak: masuk akal
+nonton: tonton
+nyari: mencari
+nyesel: menyesal
+nyesal: menyesal
+nyedot: sedot
+nyusahin: menyusahkan
+nyampek: sampai
+nunggunya: tunggunya
+ongkirnya: ongkir nya
+org: orang
+orng: orang
+pliss: tolong
+plis: tolong
+please: tolong
+pake: pakai
+pakek: pakai
+pke: pakai
+pentint: penting
+perbaiki: diperbaiki
+pnting: penting
+pgn: ingin
+pengen: ingin
+psn: pesan
+pesen: pesan
+pensngsnannya: pesanannya
+pembelinya: pembeli nya
+pengirimam: pengiriman
+prudoknya: produknya
+qt: kita
+rame: ramai
+rada: agak
+rb: ribu
+responya: respon nya
+sampe: sampai
+sampek: sampai
+sellernya: seller nya
+simple: simpel
+shope: shopee
+sophee: shopee
+shoppe: shopee
+shoppy: shopee
+shoope: shopee
+shoopee: shopee
+syopi: shopee
+sopy: shopee
+skrg: sekarang
+skrng: sekarang
+skrang: sekarang
+sekrang: sekarang
+skarang: sekarang
+sempuran: sempurna
+stiap: setiap
+sudh: sudah
+sdh: sudah
+smg: semoga
+sngt: sangat
+sngat: sangat
+srek: suka
+tampa: tanpa
+tdk: tidak
+tdak: tidak
+trimakasih: terima kasih
+terimakasih: terima kasih
+trm ksh: terima kasih
+tq: terima kasih
+tingkatin: ditingkatkan
+tetep: tetap
+ttep: tetap
+ttp: tetap
+trs: terus
+trus: terus
+tau: tahu
+tgl: tanggal
+tw: tahu
+topup: top up
+thank: terima kasih
+thanks: terima kasih
+thank u: terima kasih
+thank you: terima kasih
+tks: terima kasih
+nunggu: tunggu
+udah: sudah
+udh: sudah
+vidio: video
+verivikasi: verifikasi
+vouchernya: voucher nya
+waduh: aduh
+wduh: aduh
+waduhhh: aduh

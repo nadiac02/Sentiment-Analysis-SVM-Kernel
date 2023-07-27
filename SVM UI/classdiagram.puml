@@ -1,0 +1,95 @@
+@startuml "Class Diagram"
+class inputan{
+    + df_ulasan: dataframe
+    + Label: list
+}
+class cleaning_train{
+    + text : series
+    + clean_ulasan(self, text)
+}
+class cleaning{
+    + text : series
+    + clean_ulasan(self, text)
+}
+class normal{
+    + dict_koreksi: dict
+    + text: str
+    + normalisasi(self, text)
+}
+class filtering{
+    + text: str
+    + stopword_sastrawi: list
+    + stopword_nltk: set
+    + clean_stopword(self, text)
+    + clean_stopword_tambahan(self, text)
+}
+class stemming{
+    + text: str
+    + stemming(self, text)
+}
+class bobotTFIDF_train{
+    + tf: dataframe
+    + idf: dataframe
+    + tf_idf: dataframe
+    + tf_idf_train(self, input)
+}
+class bobotTFIDF{
+    + tf: dataframe
+    + idf: dataframe
+    + tf_idf: dataframe
+    + tf_idf(self, input)
+}
+class modelSVM{
+    + param_grid: dict
+    + grid_predictions: ndarray
+    + cm: ndarray
+    + cr: dict
+    + grid : GridSearchCV(SVC(), param_grid)
+    + klasifikasi_linear(self, text)
+    + klasifikasi_rbf(self, text)
+    + klasifikasi_polinomial(self, text)
+    + pickle.dump(grid, f)
+}
+interface training{
+    + inputan: dataframe
+    + hasil: boolean
+    + hasil1: dict
+    + hasil2: dict
+    + hasil3: dict
+    + result1: dict
+    + result2: dict
+    + result3: dict
+    + index()
+    + training()
+}
+inputan --* cleaning_train
+cleaning_train --* normal
+normal --* filtering
+filtering --* stemming
+stemming --* bobotTFIDF_train
+bobotTFIDF_train --* modelSVM
+modelSVM --* training
+
+interface main{
+    + inputan: dataframe
+    + modelfile: <<io.BufferedReader>>
+    + svmlinear: <<sklearn.model_selection._search.GridSearchCV>>
+    + svmrbf: <<sklearn.model_selection._search.GridSearchCV>>
+    + svmpol: <<sklearn.model_selection._search.GridSearchCV>>
+    + hasil: boolean
+    + hasil1: str
+    + hasil2: str
+    + hasil3: str
+    + result1: str
+    + result2: str
+    + result3: str
+    + index()
+    + main()
+}
+inputan --* cleaning
+cleaning --* normal
+normal --* filtering
+filtering --* stemming
+stemming --* bobotTFIDF
+bobotTFIDF --* main 
+@enduml

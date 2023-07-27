@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <title>Analisis Sentimen Menggunakan SVM</title>
+</head>
+
+<body class="bg-gray-200 font-mono my-16">
+    <!-- component -->
+    <!-- component -->
+    <div class="min-h-screen pt-2 font-mono my-16">
+        <div class="container flex mx-auto">
+            <div class="inputs w-full max-w-2xl p-6">
+                <h2 class="text-2xl text-gray-900">Analisis Sentimen Menggunakan SVM</h2>
+                <form class="mt-6 border-t border-gray-400 pt-4" method="POST" action="" enctype="multipart/form-data">
+                    <div class='flex flex-wrap -mx-3 mb-6'>
+                        {% if result1 is not defined %}
+                        <form method="POST" action="/static" autocomplete="off" enctype="multipart/form-data">
+                            <div class="form-control">
+                                <input type="file" name="file" id="file" required>
+                            </div>
+                        {% endif %}
+                        {% if result1 is defined %}
+                        <p>File Name : {{name}}</p>
+						<div style="margin-top:10%;margin-left:10%;">
+						<!-- <p>Linear: </p>{{result1}} -->
+                        <p>Linear: </p>
+                        <table>
+                            {% for key, value in result1.items() %}
+                            <tbody>
+                             <tr>
+                                <th> {{ key }} </th>
+                                <td>:</td>
+                                <td> {{ value }} </td>
+                             </tr>
+                            </tbody>
+                            {% endfor %}
+                        </table>
+						<br>
+						<p>RBF: </p>
+                        <table>
+                            {% for key, value in result2.items() %}
+                            <tbody>
+                             <tr>
+                                <th> {{ key }} </th>
+                                <td>:</td>
+                                <td> {{ value }} </td>
+                             </tr>
+                            </tbody>
+                            {% endfor %}
+                        </table>
+						<br>
+						<p>Polinomial: </p>
+                        <table>
+                            {% for key, value in result3.items() %}
+                            <tbody>
+                             <tr>
+                                <th> {{ key }} </th>
+                                <td>:</td>
+                                <td> {{ value }} </td>
+                             </tr>
+                            </tbody>
+                            {% endfor %}
+                        </table>
+						<br>
+						</div>
+                        {% endif %}
+                    </div>
+                    <div class="flex justify-end ">
+                    {% if result1 is not defined %}
+					<a href="/" class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md hover:bg-gray-300"
+						style="margin-right:65%;">
+					  Halaman Utama</a>
+                        <button
+                            class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md hover:bg-gray-300"
+                            type="submit"> Mulai Klasifikasi</button>
+                    {% endif %}
+                    {% if result1 is defined %}
+                    <a href="/" class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md hover:bg-gray-300"
+                    style="margin-right:65%;">
+                  Halaman Utama</a>
+                    <a href="{{ url_for('training') }}" class="appearance-none bg-gray-200 text-gray-900 px-2 py-1 shadow-sm border border-gray-400 rounded-md hover:bg-gray-300">
+					  Klasifikasi Ulang</a>
+                    {% endif %}
+                    </div>
+            </div>
+					</form>
+        </div>
+    </div>
+	
+	
+</body>
+
+</html>
